@@ -1,13 +1,16 @@
 import './App.scss';
-import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
+import {Navbar as Bnavbar, Container, Nav, NavDropdown} from "react-bootstrap";
+import {Navbar} from "./Navbar"
+
 function App() {
   return (
   <div>
-  <Navbar bg="light" expand="lg">
+      <Navbar></Navbar>
+  <Bnavbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Bnavbar.Brand href="#home">React-Bootstrap</Bnavbar.Brand>
+                <Bnavbar.Toggle aria-controls="basic-navbar-nav" />
+                <Bnavbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#link">Link</Nav.Link>
@@ -19,9 +22,9 @@ function App() {
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                </Navbar.Collapse>
+                </Bnavbar.Collapse>
             </Container>
-        </Navbar>
+        </Bnavbar>
 
   </div>
   );
