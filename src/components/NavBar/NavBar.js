@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 const pages = ['Home', 'Products', 'About'];
 
-const ResponsiveAppBar = () => {
+const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -52,7 +52,6 @@ const ResponsiveAppBar = () => {
           >
             UchiMarket
           </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -145,4 +144,4 @@ const ResponsiveAppBar = () => {
     </AppBar>
   );
 };
-export default ResponsiveAppBar;
+export default NavBar;
