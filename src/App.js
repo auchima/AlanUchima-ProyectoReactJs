@@ -8,7 +8,7 @@ function App() {
       <Navbar></Navbar>
   <Bnavbar bg="light" expand="lg">
             <Container>
-                <Bnavbar.Brand href="#home">React-Bootstrap</Bnavbar.Brand>
+                <Bnavbar.Brand href="#home">Uchima Wines</Bnavbar.Brand>
                 <Bnavbar.Toggle aria-controls="basic-navbar-nav" />
                 <Bnavbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
